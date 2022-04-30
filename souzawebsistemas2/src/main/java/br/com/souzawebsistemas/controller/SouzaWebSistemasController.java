@@ -50,4 +50,9 @@ public class SouzaWebSistemasController {
 		return  pctEscolas+"cadastroescola";
 	}
 	
+	@GetMapping("/resposta")//   http://localhost:8080/souzawebsistemas/slidefoto3
+	public String resposta() {
+		return "souzawebsistemas/resposta";
+	}
+	
 }
